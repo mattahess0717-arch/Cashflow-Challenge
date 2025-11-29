@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10k in 30 Days Challenge</title>
+    <style>
+        :root {
+            --primary-color: #0066FF; /* Trust Blue */
+            --accent-color: #28a745; /* Money Green */
+            --dark-bg: #0f172a;
+            --light-text: #ffffff;
+            --gray-text: #94a3b8;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--dark-bg);
+            color: var(--light-text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .pre-headline {
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 800;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin: 10px 0;
+            line-height: 1.2;
+        }
+
+        h1 span {
+            color: var(--primary-color);
+            background: rgba(0,102,255,0.1);
+            padding: 0 10px;
+            border-radius: 5px;
+        }
+
+        .sub-headline {
+            font-size: 22px;
+            color: var(--gray-text);
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        /* VIDEO PLACEHOLDER */
+        .video-wrapper {
+            background: #000;
+            border: 2px solid #334155;
+            border-radius: 10px;
+            aspect-ratio: 16 / 9;
+            max-width: 800px;
+            margin: 40px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+        }
+
+        .video-text {
+            color: #555;
+            font-weight: bold;
+        }
+
+        /* CTA BUTTON */
+        .cta-box {
+            background: #1e293b;
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid #334155;
+            max-width: 600px;
+            margin: -30px auto 50px; /* Overlap video slightly */
+            position: relative;
+            text-align: center;
+        }
+
+        .btn-main {
+            background-color: var(--accent-color);
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 20px 40px;
+            text-decoration: none;
+            border-radius: 8px;
+            display: inline-block;
+            transition: transform 0.2s;
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+            width: 80%;
+        }
+
+        .btn-main:hover {
+            transform: scale(1.02);
+            background-color: #218838;
+        }
+
+        .guarantee {
+            margin-top: 15px;
+            font-size: 14px;
+            color: var(--gray-text);
+        }
+
+        /* FOUNDERS SECTION */
+        .founders-section {
+            background-color: #1e293b;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .founders-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .founder-card {
+            background: var(--dark-bg);
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            border: 1px solid #334155;
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            background-color: #334155;
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+        }
+
+        .founder-name {
+            font-weight: bold;
+            font-size: 18px;
+            color: white;
+        }
+
+        .founder-role {
+            color: var(--primary-color);
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 12px;
+            color: #64748b;
+        }
+
+        /* MOBILE RESPONSIVE */
+        @media (max-width: 600px) {
+            h1 { font-size: 32px; }
+            .btn-main { font-size: 18px; width: 100%; padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <div class="container">
+            <div class="pre-headline">Warning: This Strategy is Unusually Effective</div>
+            <h1>How To Generate <span class="highlight">Recurring Income</span> In Your First 30 Days</h1>
+            <p class="sub-headline">Join the new challenge led by Brandon Duff, Mattie, & Gavin. Clone our business model and start scaling today.</p>
+            
+            <!-- Video Placeholder (Replace with GHL Video Element) -->
+            <div class="video-wrapper">
+                <div class="video-text">[ INSERT VSL VIDEO HERE ]</div>
+            </div>
+
+            <!-- CTA AREA -->
+            <div class="cta-box">
+                <h3 style="margin-top:0;">Start Your 14-Day Trial for Just $1</h3>
+                <p style="font-size: 14px; margin-bottom: 20px; color: #cbd5e1;">Get full access to the blueprint, the software, and the coaching.</p>
+                <a href="#go-to-checkout" class="btn-main">YES! Start My $1 Trial Now &raquo;</a>
+                <div class="guarantee">
+                    🔒 Secure Checkout • Cancel Anytime • $197/mo after 14 days
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TEAM SECTION -->
+    <div class="founders-section">
+        <div class="container">
+            <h2>Meet The Team Behind Your Success</h2>
+            <p style="color:var(--gray-text);">We don't just teach this. We do this every single day.</p>
+            
+            <div class="founders-grid">
+                <!-- Brandon -->
+                <div class="founder-card">
+                    <div class="avatar">👨‍💻</div> <!-- Replace with Image -->
+                    <div class="founder-name">Brandon Duff</div>
+                    <div class="founder-role">The Founder</div>
+                    <p style="font-size:13px; color: #94a3b8;">Common Sense Investor & SaaS Expert.</p>
+                </div>
+
+                <!-- Mattie -->
+                <div class="founder-card">
+                    <div class="avatar">🚀</div> <!-- Replace with Image -->
+                    <div class="founder-name">Mattie</div>
+                    <div class="founder-role">Owner & Coach</div>
+                    <p style="font-size:13px; color: #94a3b8;">Expert in scaling recurring revenue models.</p>
+                </div>
+
+                <!-- Gavin -->
+                <div class="founder-card">
+                    <div class="avatar">📈</div> <!-- Replace with Image -->
+                    <div class="founder-name">Gavin</div>
+                    <div class="founder-role">Owner & Coach</div>
+                    <p style="font-size:13px; color: #94a3b8;">Specialist in automation and systems.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2024 All Rights Reserved. <br>This site is not part of the Facebook website or Facebook Inc.</p>
+    </footer>
+
+</body>
+</html>
